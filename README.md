@@ -40,3 +40,12 @@ openssl ts -verify \
 Expected output: `Verification: OK`.
 
 The timestamp establishes the existence and integrity of the manifest at the TSA time. It does not by itself establish scientific correctness or patent novelty.
+
+## Permanent record
+
+The published Zenodo record and DOI are:
+
+- DOI: [10.5281/zenodo.23577442](https://doi.org/10.5281/zenodo.23577442)
+- Record: https://zenodo.org/records/23577442
+
+Use the DOI when citing or archiving this release. The GitHub repository and live evidence endpoint remain the verification sources for the same canonical archive.
