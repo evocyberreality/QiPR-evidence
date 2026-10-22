@@ -1,0 +1,11 @@
+QiPR evidence archive integrity record
+Execution: reproduction_cold_20261021T132500Z
+Archive: evidence_reproduction_cold_20261021T132500Z_updated.zip
+Archive SHA3-512: e326e10900331ea0bc12ecb51269a34cd4008b7a8f1857d9819356b639b5e4739436ad8e5982bca6c4e686e59a158a2fe999ec438cb6a1c2f3d5193681500a90
+Archive members: 256
+Manifest: PUBLIC_EVIDENCE_SUPPLEMENT_MANIFEST.json
+Manifest SHA3-512: 10eda5ffc3e8263b57f948d15b62442035c9d625fa9171970c85991799b4380fd73b475d0af4e4bafe7d96a750a6d7875fdfc0946fc9ec3bde0e4263f2c21963
+TSA: RFC 3161 FreeTSA response stored as manifest.tsr
+TSA verification: openssl ts -verify ... => OK
+TSA time: 2026-10-22 19:08:22 UTC
+Transparency: the former d77264ae archive was retained as a legacy 152-item archive and is not canonical.
