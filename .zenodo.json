@@ -1,0 +1,36 @@
+{
+  "title": "QiPR - Quantum inspirations Paradigm Reality: Canonical Cold-Start Evidence",
+  "upload_type": "software",
+  "publication_date": "2026-10-22",
+  "creators": [
+    {
+      "name": "Schön, Petr"
+    }
+  ],
+  "description": "Canonical public evidence package for QiPR (Quantum inspirations Paradigm Reality), formerly EvO q_paradigm. The release contains a cold-start reproduction of 48 local audit-simulator configurations based on eight Bell and Grover circuit contracts, with execution metadata, 48 outputs, 96 per-run Ed25519 certificates, a complete attempt log, a SHA3-512 manifest and RFC 3161 timestamp material. The package is intended for independent technical validation and reproducibility review. It does not include the private core or private signing key. The evidence scope is the supplied local reproduction and its audit trail; integrity verification does not by itself establish scientific correctness or patent novelty.",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "QiPR",
+    "quantum-inspired computing",
+    "quantum circuit simulation",
+    "reproducibility",
+    "audit trail",
+    "cold-start verification",
+    "Ed25519",
+    "SHA3-512",
+    "RFC 3161",
+    "Qiskit"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://qreality.eu/q_paradigm/api/evidence/reproduction-cold-20261021T132500Z",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://qreality.eu/q_paradigm/static/documents.html",
+      "relation": "isDocumentedBy",
+      "resource_type": "softwaredocumentation"
+    }
+  ]
+}
