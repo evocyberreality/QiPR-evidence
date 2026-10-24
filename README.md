@@ -62,3 +62,5 @@ An append-only supplement now links the unchanged canonical evidence ZIP to the 
 The supplement preserves an important boundary: the cold reproduction used the documented compatibility authorization shim. It does not retroactively claim that all 48 runs were produced by a byte-identical build of the current protected core. A direct execution-to-binary claim requires a new certified run series that records the executable or container digest before execution.
 
 The supplement also contains `EVIDENCE_ERRATA.json`: the standalone fingerprint text in the original archive retained a stale manifest digest (`305bf7a0…`), while `AUDIT_STAMP.json` and the verified RFC 3161 response identify the actual manifest digest (`10eda5ff…`). The timestamped original archive is not rewritten.
+
+The machine-readable identity record currently names the preserved first publication on Zenodo, [10.5281/zenodo.23577442](https://doi.org/10.5281/zenodo.23577442). No separate DOI for this append-only supplement is asserted here unless it is added to `SOFTWARE_IDENTITY.json` and independently verified.
