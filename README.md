@@ -49,3 +49,14 @@ The published Zenodo record and DOI are:
 - Record: https://zenodo.org/records/23577442
 
 Use the DOI when citing or archiving this release. The GitHub repository and live evidence endpoint remain the verification sources for the same canonical archive.
+
+## Software identity supplement — 2026-10-24
+
+An append-only supplement now links the unchanged canonical evidence ZIP to the public GitHub commit/release, Zenodo DOI, verifier digest and the public hash identity of the protected current core:
+
+- Live download: https://qreality.eu/q_paradigm/api/evidence/software-identity-20261024
+- Human-readable statement: https://qreality.eu/q_paradigm/static/software-identity.html
+- Repository directory: [`software-identity/`](software-identity/)
+- Supplement ZIP SHA3-512: `67c0cc83344a5fb7f923c6484d40b35e5cc1679332914c70e40599799190bb4e2d150b39488d09e2a958bd14198202127fbf16f51fe3328d4bc163b33627b4fb`
+
+The supplement preserves an important boundary: the cold reproduction used the documented compatibility authorization shim. It does not retroactively claim that all 48 runs were produced by a byte-identical build of the current protected core. A direct execution-to-binary claim requires a new certified run series that records the executable or container digest before execution.

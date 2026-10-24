@@ -1,0 +1,22 @@
+{
+  "schema": "qipr-software-identity-supplement-manifest/1.0",
+  "issued_utc": "2026-10-24T00:00:00Z",
+  "relationship": "append-only supplement to canonical evidence ZIP e326e109...",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1794,
+      "sha3_512": "f75f2e23de62ad220f15024c34bd583f606b8606991488e670cab605a4e5ec91e6bec29c324d1ea67cfe617b0cb8ad3a7dfc2fdf31c99816698d452619a68122"
+    },
+    {
+      "path": "SOFTWARE_IDENTITY.json",
+      "bytes": 4064,
+      "sha3_512": "3f72cd33a50a8de4a3172a477afc4cd2b843a7cfec54c9d7b32af874c81697a383c80c2530bda1a8eb5b87116e956e2ab77ce8c248f1b4a13bd1b42290370cfc"
+    },
+    {
+      "path": "PROTECTED_CORE_MANIFEST_PUBLIC.json",
+      "bytes": 1512,
+      "sha3_512": "c89f80e0e4081bde33bbda95c851cb30739096d4c5bc603fe6b513bc7969d410d0a0d4c7f7777bb4c9377dccd99c386025ec1fe644054190fc95b32599ae3e5a"
+    }
+  ]
+}

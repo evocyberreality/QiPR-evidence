@@ -1,0 +1,27 @@
+{
+  "schema": "q-paradigm-encrypted-core-public-identity/1.0",
+  "core_id": "q-paradigm-evo-lab-session-statecontroller-v1",
+  "created_at_utc": "2026-10-09T18:07:51.100369+00:00",
+  "cipher": "AES-256-GCM",
+  "hash": "SHA3-512",
+  "key_id": "5fa1b2af3f45312785d3b901de9d868bcd53f306f1c8dcd44cc93a2b4604c0dbc841dac0b3ef385cb4bc540de6083712717a838406996e5701df2a54677da6e4",
+  "modules": {
+    "engine": {
+      "file": "engine.py.aesgcm",
+      "plaintext_bytes": 22924,
+      "plaintext_sha3_512": "82321a86ad4ace5bca5b1d77c57696a8158fcd2efb629d82ab04fbad143974cf3e58fd4afdbabef46e30a41ae42d32717f40d32051102a22435e08c97fa454ae",
+      "ciphertext_bytes": 22940,
+      "ciphertext_sha3_512": "42195235c21ceb5d706373f8116b067d16e14325ca666708b04955b4dd27d3524c113dafa01a4e62d4d0aa5130b84562d3de965920af59b88692a390de68a960"
+    },
+    "state_core": {
+      "file": "state_core.py.aesgcm",
+      "plaintext_bytes": 36011,
+      "plaintext_sha3_512": "084198a661d4e6980c8c20245c8cf00d496aaa365be5600d48c36d426cb7adb18a9800711a0280001714e282088a671503ce6bf444aefc7fb984c85b02869ffa",
+      "ciphertext_bytes": 36027,
+      "ciphertext_sha3_512": "3be0e7a6543595a012b45f2b046116a9650cf2eaa22b9c62bcd474eba336f9885195141c32b8f8e849ba204023da40a998a7b62c889488aae035adcf72e7b544"
+    }
+  },
+  "private_source_included": false,
+  "private_key_included": false,
+  "scope": "Identity record for the protected current implementation; not a retroactive claim that the cold-start compatibility runner was byte-identical."
+}

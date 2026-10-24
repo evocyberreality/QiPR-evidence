@@ -1,0 +1,62 @@
+{
+  "schema": "qipr-software-identity-supplement/1.0",
+  "issued_utc": "2026-10-24T00:00:00Z",
+  "author": {
+    "name": "Petr Schön",
+    "linkedin": "https://www.linkedin.com/in/cyberrealite/"
+  },
+  "project": {
+    "name": "QiPR - Quantum inspirations Paradigm Reality",
+    "former_name": "EvO q_paradigm"
+  },
+  "canonical_evidence": {
+    "execution_id": "reproduction_cold_20261021T132500Z",
+    "endpoint": "https://qreality.eu/q_paradigm/api/evidence/reproduction-cold-20261021T132500Z",
+    "zip_sha3_512": "e326e10900331ea0bc12ecb51269a34cd4008b7a8f1857d9819356b639b5e4739436ad8e5982bca6c4e686e59a158a2fe999ec438cb6a1c2f3d5193681500a90",
+    "zip_bytes": 5189987,
+    "zip_members": 256,
+    "manifest_artifacts": 249,
+    "runs": 48,
+    "certificates": 96,
+    "manifest_sha3_512": "10eda5ffc3e8263b57f948d15b62442035c9d625fa9171970c85991799b4380fd73b475d0af4e4bafe7d96a750a6d7875fdfc0946fc9ec3bde0e4263f2c21963",
+    "rfc3161": {
+      "tsa": "FreeTSA",
+      "time_utc": "2026-10-22T19:08:22Z",
+      "verification": "OK"
+    }
+  },
+  "github_publication": {
+    "repository": "https://github.com/evocyberreality/QiPR-evidence",
+    "commit": "c9adb876cee041135e080611b642def333fd89dd",
+    "commit_url": "https://github.com/evocyberreality/QiPR-evidence/commit/c9adb876cee041135e080611b642def333fd89dd",
+    "commit_time": "2026-10-22T22:32:23+02:00",
+    "tree": "cb9f32cb5dbdd30b9774c07497d257d93246cedf",
+    "release": "v2026.10.22",
+    "release_url": "https://github.com/evocyberreality/QiPR-evidence/releases/tag/v2026.10.22",
+    "verifier_sha3_512": "e6a2e2ce7a7709cbf5683e16d1b6a789863bc2e2f7e42d53d931382f582e404c563668b13cb7bbe2ac295672748f8c3057983b60655d7cd4e4479bdfb30489cc"
+  },
+  "zenodo_publication": {
+    "doi": "10.5281/zenodo.23577442",
+    "doi_url": "https://doi.org/10.5281/zenodo.23577442",
+    "record": "https://zenodo.org/records/23577442",
+    "archive_file_md5": "16c01a714ddc42184749f6f664f6c0b5"
+  },
+  "protected_core_identity": {
+    "core_id": "q-paradigm-evo-lab-session-statecontroller-v1",
+    "manifest_file": "PROTECTED_CORE_MANIFEST_PUBLIC.json",
+    "public_manifest_sha3_512": "c89f80e0e4081bde33bbda95c851cb30739096d4c5bc603fe6b513bc7969d410d0a0d4c7f7777bb4c9377dccd99c386025ec1fe644054190fc95b32599ae3e5a",
+    "internal_signed_manifest_sha3_512": "f5dbfa5ede2326b4f311e007d62268727ee03b8e5ab64e167ad007bf046a6730ba0223c6252f70b15840dd98258d633ecec107882aa900d5822f56a96becff8c",
+    "engine_plaintext_sha3_512": "82321a86ad4ace5bca5b1d77c57696a8158fcd2efb629d82ab04fbad143974cf3e58fd4afdbabef46e30a41ae42d32717f40d32051102a22435e08c97fa454ae",
+    "engine_ciphertext_sha3_512": "42195235c21ceb5d706373f8116b067d16e14325ca666708b04955b4dd27d3524c113dafa01a4e62d4d0aa5130b84562d3de965920af59b88692a390de68a960",
+    "state_core_plaintext_sha3_512": "084198a661d4e6980c8c20245c8cf00d496aaa365be5600d48c36d426cb7adb18a9800711a0280001714e282088a671503ce6bf444aefc7fb984c85b02869ffa",
+    "state_core_ciphertext_sha3_512": "3be0e7a6543595a012b45f2b046116a9650cf2eaa22b9c62bcd474eba336f9885195141c32b8f8e849ba204023da40a998a7b62c889488aae035adcf72e7b544",
+    "private_source_included": false
+  },
+  "scope_statement": {
+    "cold_reproduction_implementation": "documented compatibility runner with whole-authorization guard shim",
+    "byte_identical_current_core_execution_claimed": false,
+    "reason": "The original evidence README discloses a compatibility shim. The current protected-core manifest identifies the protected implementation, but is not retroactively asserted to be the byte-identical executable used for all 48 cold-start runs.",
+    "what_is_immutably_linked": "The original evidence ZIP, its artifact manifest and certificates, the public Git commit/release, the Zenodo record, the verifier hash, and the protected-core module hashes are now linked by this supplement.",
+    "remaining_strongest_proof": "For a direct execution-to-binary claim, run a new certified series that records the executable or container digest inside every start and end certificate before execution."
+  }
+}
