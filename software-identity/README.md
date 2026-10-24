@@ -22,3 +22,7 @@ This append-only supplement closes a documentation gap in the canonical cold-sta
 The 48-run cold reproduction disclosed a compatibility authorization shim. Therefore this supplement does **not** retroactively claim that all 48 runs were produced by the byte-identical current protected core. It identifies both records and their relationship without rewriting history.
 
 The strongest future execution-to-binary proof requires a new certified run series whose start certificate records an executable, container or reproducible-build digest before execution and whose end certificate binds the same digest to the output.
+
+## Erratum for the original archive
+
+The original `EVIDENCE_FINGERPRINT_SHA3-512.txt` contains the stale manifest digest `305bf7a0…`. The actual manifest digest is `10eda5ff…`, as recorded by `AUDIT_STAMP.json` and verified by the RFC 3161 timestamp response. See `EVIDENCE_ERRATA.json`. The original timestamped archive remains unchanged; this correction is append-only.

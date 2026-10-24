@@ -5,8 +5,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 1794,
-      "sha3_512": "f75f2e23de62ad220f15024c34bd583f606b8606991488e670cab605a4e5ec91e6bec29c324d1ea67cfe617b0cb8ad3a7dfc2fdf31c99816698d452619a68122"
+      "bytes": 2171,
+      "sha3_512": "50b1b47a04307cb7bb40d34d3f127d912d4325af997dd96117e1f68b8fd804f818bd8520bcc2aa7fbb5dda4ed8fdb9745afe1f3711734c2ef40b0071004bbdb9"
     },
     {
       "path": "SOFTWARE_IDENTITY.json",
@@ -17,6 +17,11 @@
       "path": "PROTECTED_CORE_MANIFEST_PUBLIC.json",
       "bytes": 1512,
       "sha3_512": "c89f80e0e4081bde33bbda95c851cb30739096d4c5bc603fe6b513bc7969d410d0a0d4c7f7777bb4c9377dccd99c386025ec1fe644054190fc95b32599ae3e5a"
+    },
+    {
+      "path": "EVIDENCE_ERRATA.json",
+      "bytes": 1502,
+      "sha3_512": "6f11c31aa35ba846dc6265c5fb443dbacc1c4534f1069e651b5137ae39e47ed42a0718eb06ac85396a3e41eb2bc15fdef705f5eb0a58a821a20352c368be61b7"
     }
   ]
 }

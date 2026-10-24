@@ -57,6 +57,8 @@ An append-only supplement now links the unchanged canonical evidence ZIP to the 
 - Live download: https://qreality.eu/q_paradigm/api/evidence/software-identity-20261024
 - Human-readable statement: https://qreality.eu/q_paradigm/static/software-identity.html
 - Repository directory: [`software-identity/`](software-identity/)
-- Supplement ZIP SHA3-512: `67c0cc83344a5fb7f923c6484d40b35e5cc1679332914c70e40599799190bb4e2d150b39488d09e2a958bd14198202127fbf16f51fe3328d4bc163b33627b4fb`
+- Supplement ZIP SHA3-512: `85ebee420cc08dabedaf0ece1e38ab4c77ee6b309f85890e4736765457d98a518a3ca71135774598459dfa8ec5c1210d29dd65edda3d90b5c00cacdde13ded08`
 
 The supplement preserves an important boundary: the cold reproduction used the documented compatibility authorization shim. It does not retroactively claim that all 48 runs were produced by a byte-identical build of the current protected core. A direct execution-to-binary claim requires a new certified run series that records the executable or container digest before execution.
+
+The supplement also contains `EVIDENCE_ERRATA.json`: the standalone fingerprint text in the original archive retained a stale manifest digest (`305bf7a0…`), while `AUDIT_STAMP.json` and the verified RFC 3161 response identify the actual manifest digest (`10eda5ff…`). The timestamped original archive is not rewritten.

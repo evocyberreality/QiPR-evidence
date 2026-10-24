@@ -1,0 +1,16 @@
+{
+  "schema": "qipr-evidence-errata/1.0",
+  "issued_utc": "2026-10-24T00:00:00Z",
+  "affected_archive_sha3_512": "e326e10900331ea0bc12ecb51269a34cd4008b7a8f1857d9819356b639b5e4739436ad8e5982bca6c4e686e59a158a2fe999ec438cb6a1c2f3d5193681500a90",
+  "affected_file": "EVIDENCE_FINGERPRINT_SHA3-512.txt",
+  "stale_manifest_sha3_512": "305bf7a014b8f4fac4587d6a1effc5960e2fb671f578a1cfdeb3166bc0dc2afcba7edadf13c73806d1c09a879d5532cb0a9911d1ac9758b830064d080ae821b5",
+  "canonical_manifest_sha3_512": "10eda5ffc3e8263b57f948d15b62442035c9d625fa9171970c85991799b4380fd73b475d0af4e4bafe7d96a750a6d7875fdfc0946fc9ec3bde0e4263f2c21963",
+  "outputs_concatenated_sha3_512": "445bf72c1d8f116c2132c7ab40df67f0dff8ffc47b901402468e1e8378d3f119f0424d2a53ecd861fac2cff669fa4842cbf38d73cf543940a684c2852e537fb1",
+  "authoritative_records": [
+    "AUDIT_STAMP.json",
+    "PUBLIC_EVIDENCE_SUPPLEMENT_MANIFEST.json",
+    "manifest.tsr"
+  ],
+  "assessment": "The standalone fingerprint text retained a pre-rebuild manifest digest. AUDIT_STAMP.json contains the actual manifest digest, and the RFC 3161 response verifies against the actual manifest. The mismatch is a documentation inconsistency, not a failed signature or timestamp verification.",
+  "correction_policy": "The original timestamped archive is not modified. This append-only erratum records both values and identifies the authoritative records. A future consolidated release must generate the fingerprint file only after the final manifest bytes are frozen."
+}
