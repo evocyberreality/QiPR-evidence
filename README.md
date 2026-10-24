@@ -63,4 +63,4 @@ The supplement preserves an important boundary: the cold reproduction used the d
 
 The supplement also contains `EVIDENCE_ERRATA.json`: the standalone fingerprint text in the original archive retained a stale manifest digest (`305bf7a0…`), while `AUDIT_STAMP.json` and the verified RFC 3161 response identify the actual manifest digest (`10eda5ff…`). The timestamped original archive is not rewritten.
 
-The machine-readable identity record currently names the preserved first publication on Zenodo, [10.5281/zenodo.23577442](https://doi.org/10.5281/zenodo.23577442). No separate DOI for this append-only supplement is asserted here unless it is added to `SOFTWARE_IDENTITY.json` and independently verified.
+The preserved first publication is [10.5281/zenodo.23577442](https://doi.org/10.5281/zenodo.23577442). The published append-only supplement is [10.5281/zenodo.23607031](https://doi.org/10.5281/zenodo.23607031); its public record and download were verified on 2026-10-24.
